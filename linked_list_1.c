@@ -46,32 +46,32 @@ void printlist()
     }
 }
 
-struct node* delete(int key)
+struct Node* delete(int key)
 {
-   struct node* current = head;
-   struct node* previous = NULL;
+   struct Node* curr = head;
+   struct Node* previous = NULL;
 	
    if(head == NULL) {
       return NULL;
    }
 
-   while(current->key != key) {
+   while(curr->key != key) {
 
-      if(current->next == NULL) {
+      if(curr->next == NULL) {
          return NULL;
       } else {
-         previous = current;
-         current = current->next;
+         previous = curr;
+         curr = curr->next;
       }
    }
 
-   if(current == head) {
+   if(curr == head) {
       head = head->next;
    } else {
-      previous->next = current->next;
+      previous->next = curr->next;
    }    
 	
-   return current;
+   return curr;
 }
 
 int main()
@@ -83,5 +83,8 @@ int main()
         scanf("%d", &data);
         insert(i, data);
     }
+
+    delete(2);
+    printlist();
     printf("\n");
 }
