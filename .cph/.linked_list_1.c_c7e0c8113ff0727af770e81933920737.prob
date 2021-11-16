@@ -1,0 +1,1 @@
+{"name":"Local: linked_list_1","url":"/home/suvashkumar/Desktop/Data Structure Lab/linked_list_1.c","tests":[{"id":1637039060460,"input":"12 -2 4 6 89 90","output":"Enter 6 value:\nList : 12 -2 4 6 89 90"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/suvashkumar/Desktop/Data Structure Lab/linked_list_1.c","group":"local","local":true}
