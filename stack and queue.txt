@@ -1,0 +1,8 @@
+1. Push item onto a stack
+2. Delete the top element of stack
+3. find the valule of a arithmetic expression p wirtten in postfix notation
+    12,4,-,5,6,+........
+4. transform an infix expression into postfix expression
+5. find the value of an arithmetic expression wirtten in infix notation
+6. sort 10 integer data using quick-sort algorithm
+7. Calculate the factorial of a given number using recursive technique
