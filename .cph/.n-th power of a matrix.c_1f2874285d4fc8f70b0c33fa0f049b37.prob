@@ -1,0 +1,1 @@
+{"name":"Local: n-th power of a matrix","url":"/home/suvashkumar/Desktop/Data Structure Lab/n-th power of a matrix.c","tests":[{"id":1637768270656,"input":"2\n4 3\n1 6\n2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/suvashkumar/Desktop/Data Structure Lab/n-th power of a matrix.c","group":"local","local":true}
